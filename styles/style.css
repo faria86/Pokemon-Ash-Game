@@ -1,0 +1,19 @@
+.catch-button {
+  display: flex;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.form-catch {
+  display: flex;
+}
+
+.button {
+  margin: 20px;
+  height: 20px;
+} 
+
+#travellog {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Pokemon Ash Challenge</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h1>Pokemon Ash</h1>
+        <img class="ash" src="/images/ash.png" width="300px" />
+      </div>
+    </div>
+    <div>
+      <div class="form-catch">
+        <form>
+          <label for="name-input">Insert movements:</label><br />
+          <input type="text" id="movements-input" name="text-input"/><br />
+        </form>
+        <button class="button">Catch Pókemons!</button>
+      </div>
+      <article>
+        <em>"n" = North</em></br>
+        <em>"s" = South</em></br>
+        <em>"w" = West</em></br>
+        <em>"e" = East</em></br>
+        <small>example: "nswe"</small>
+      </article>
+    </div>
+    <div class="result">
+      <h1>Result:</h1>
+      <span>Requested movements: </span><span id="requested-movements"></span><br />
+      <span>Number of Pokemons: </span><span id="total-pokemons"></span><br />
+      <span>Time Taken: </span><span id="time-taken"></span><br />
+      <span>Travel Log: </span><div id="travellog"></div><br />
+    </div>
+        <script src="scripts/main.js"></script>
+  </body>
+</html>
